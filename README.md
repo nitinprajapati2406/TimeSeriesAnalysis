@@ -1,1 +1,7 @@
 # TimeSeriesAnalysis
+
+The project focuses on time series analysis and forecasting of historical stock market data using Python. It begins with data preprocessing, including data retrieval, cleaning, and visualization. The dataset comprises stock market information such as opening and closing prices, trading volume, and more, dating back to the late 1920s. Descriptive statistics and visualization techniques are employed to gain insights into the data.
+
+The analysis includes calculating various technical indicators like moving averages (SMA and EMA) and seasonal decomposition to understand patterns in the time series data. Stationarity tests are performed, and differencing is used to make the data stationary. Subsequently, the project delves into machine learning by building a Long Short-Term Memory (LSTM) model for stock price prediction. The LSTM model is trained and validated on the historical stock data, and the predicted prices are compared to the actual prices.
+
+Key evaluation metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared (R2) are computed to assess the model's performance. The project concludes with the creation of a `requirements.txt` file for the essential libraries used. This comprehensive analysis and forecasting project provides a practical example of time series analysis, data preprocessing, and machine learning for stock market data.
